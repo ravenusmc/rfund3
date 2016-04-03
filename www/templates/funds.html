@@ -1,0 +1,28 @@
+<ion-view title="Funds" id="page2">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <div class="button-bar">
+            <button id="funds-button1" style="font-size:11px;" class="button button-balanced  button-block">Certification</button>
+            <a ui-sref="startedPage.degree" id="funds-button2" style="font-size:11px;" class="button button-balanced  button-block">Degree</a>
+            <button id="funds-button3" style="font-size:11px;" class="button button-balanced  button-block">Jobs</button>
+        </div>
+        <ion-list>
+            <ion-item ui-sref="startedPage.fieldOfWork">
+                <img>
+                <h2>Field of Work</h2>
+                <p></p>
+            </ion-item>
+            <ion-item>
+                <img>
+                <h2>Certification</h2>
+                <p></p>
+            </ion-item>
+        </ion-list>
+        <div class="spacer" style="width: 285px; height: 19px;"></div>
+        <form class="list">
+            <label class="item item-input">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="search" placeholder="Search Certifications">
+            </label>
+        </form>
+    </ion-content>
+</ion-view>
